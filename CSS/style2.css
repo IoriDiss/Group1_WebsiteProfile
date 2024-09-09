@@ -1,0 +1,218 @@
+* {box-sizing:border-box}
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/rrt2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+    color: rgb(230,104,59);
+}
+
+.navbar .logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+.navbar li:nth-child(4) a {
+    color: white;
+}
+
+.navbar li:nth-child(5) a {
+    color: white;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.navbar li:nth-child(4) a:hover {
+    color: rgb(230, 104, 59); 
+}
+
+.navbar li:nth-child(5) a:hover {
+    color: rgb(230, 104, 59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.info h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info h2{
+    font-size: 55px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    margin-top: -20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 50%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+
+.detail{
+    font-size: 25px;
+}
+.container {
+    padding: 0;
+    margin-left: 10px;
+    width: 800px; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border: 3px solid black;
+    height: 30px;
+}
+h4{
+    padding: 0;
+    margin-left: 10px;
+    font-weight: bold;
+    color: black;
+}
+h4 span{
+    color: #A35700;
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 5px;
+    color: white; /* White text color */
+    padding-right: 10px;
+}
+
+.html {
+    width: 90%; 
+    background-color: #212121;
+    height: 24px;
+}
+.css {
+    width: 80%;
+    background-color: #424242;
+    height: 24px;
+} 
+.js {
+    width: 65%;
+    background-color: #616161;
+    height: 24px;
+} 
+.php {
+    width: 60%;
+    background-color: #757575;
+    height: 24px;
+}
+.move{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.move img{
+    position: absolute;
+    height: 140%;
+    left: 50%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.move:hover .girl{
+    left: 55%;
+}
